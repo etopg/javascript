@@ -1,0 +1,136 @@
+/* GENERAL COMPONENT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+  }
+  /* CLOCK COMPONENT */
+  
+  .clock {
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+  }
+  .container {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #f2eee3;
+    border: 15px ridge #e75f30;
+    outline: 20px ridge #e75f30;
+    position: relative;
+  }
+  
+  .number {
+    font-size: 20px;
+    color: #1c1b18;
+    font-weight: 700;
+  }
+  
+  .number-12 {
+    position: absolute;
+    top: 13%;
+    left: 46.5%;
+  }
+  
+  .number-11 {
+    position: absolute;
+    top: 17%;
+    left: 28%;
+  }
+  
+  .number-10 {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+  }
+  
+  .number-9 {
+    position: absolute;
+    top: 46%;
+    left: 12%;
+  }
+  
+  .number-8 {
+    position: absolute;
+    top: 65%;
+    left: 18%;
+  }
+  
+  .number-7 {
+    position: absolute;
+    bottom: 17%;
+    left: 30%;
+  }
+  
+  .number-6 {
+    position: absolute;
+    bottom: 12%;
+    left: 48%;
+  }
+  
+  .number-5 {
+    position: absolute;
+    bottom: 17%;
+    left: 66%;
+  }
+  
+  .number-4 {
+    position: absolute;
+    bottom: 27.5%;
+    left: 78%;
+  }
+  
+  .number-3 {
+    position: absolute;
+    bottom: 46%;
+    left: 83%;
+  }
+  
+  .number-2 {
+    position: absolute;
+    bottom: 64%;
+    right: 18%;
+  }
+  
+  .number-1 {
+    position: absolute;
+    bottom: 76%;
+    right: 32%;
+  }
+  
+  /* IMAGE COMPONENT */
+  img {
+    width: 480px;
+    position: absolute;
+    top: 10%;
+    left: -10%;
+  }
+  
+  .img-2 {
+    width: 55%;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    transform: rotate(-20deg);
+  }
+  
+  p {
+    color: #1c1b18;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
